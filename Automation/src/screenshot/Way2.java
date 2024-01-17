@@ -15,7 +15,7 @@ import com.google.common.io.Files;
 public class Way2 {
 
 	public static void main(String[] args) throws IOException {
-		WebDriver driver=new ChromeDriver();
+		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.apple.com/iphone/");
